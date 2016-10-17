@@ -128,6 +128,10 @@ html
     .lazy {
       background-image: url('images/lazy.gif')
     }
+    
+    .elf {
+      background-image: url('images/elf.gif')
+    }
 
   body
 
@@ -204,6 +208,13 @@ html
         h3 v4.6.0
         h2 Maintenance LTS:
         h3 v0.10.47 & v0.12.16
+      
+      section
+        h3 v0.10 is end of life
+        h2 October 31
+        h3 v0.12 is end of life
+        h2 December 31
+        h3 TIME TO UPGRADE!
 
       section(data-bespoke-backdrop='fork')
         h1 Some History of
@@ -251,9 +262,6 @@ html
       
       section
         h1 What about Master?
-        
-      section(data-bespoke-backdrop='stable')
-        h1 What happened to Stable?
 
       section
         h1 So how the heck do we manage all of this?
@@ -263,18 +271,21 @@ html
       
       section(data-bespoke-backdrop='tree')
         h1 Git Magic
+      
+      section(data-bespoke-backdrop='elf')
+        h2 Magic + Trees === Elf
 
       section
         h2 We maintain release branches
-        h3 v0.10.x v0.12.x v4.x v5.x and v6.x
+        h3 v0.10.x, v0.12.x, v4.x, and v6.x
 
       section
         h2 We also maintain staging branches
-        h3 v4.x-staging, v6.x-staging
+        h3 v0.10.x-staging, v0.12.x-staging, v4.x-staging, v6.x-staging
         h4 Used to stage changes as they are audited
       
       section
-        h2 All Changes must live in a release for at least a week
+        h2 All Changes must live in a release for at least two weeks
         h3 Before they are backported to lts-staging
       
       section(data-bespoke-backdrop='demo')
@@ -324,7 +335,7 @@ html
         h1 Smoke Testing
       
       section
-        h2 CITGM found failures the week of Feb 4
+        h2 Once upon a time CITGM found failures
         img.headroom(src='images/citgm.png' alt='Failures')
       
       section
@@ -368,34 +379,32 @@ html
 
       section
         h1 CITGM has found all sorts of weirdness
-        h3.headroom Ask me after and I'll tell you where to find my journal
+        h3.headroom Ask me after and I'll tell you where to find my diary
 
       section
         h1 So Which Version Should You Use?
       
       section
-        h1 That's a tough one
-      
-      section
-        h2 v4.x has had a while on LTS to stabalise
-        h3 v6.x is going to LTS tomorrow
+        h3 v4.x has had a while on LTS to stabalise
+        h3 v6.x is going to become LTS tomorrow
         
       section
         h2 Why use v4.x?
         ul
           li.hide
           li hardened by ongoing LTS release process
-          li least likely to break your app in production
+          li least likely to break your app in production today
 
       section
         h2 Why use v6.x?
         ul
           li.hide
-          li Longest support cycle
+          li Longest support cycle of LTS releases
           li closest to master of LTS releases
+          li V8 5.1 🎉
 
       section
-        h1 Do I have to?
+        h1 Do I have to use LTS?
         
       section
         h1 Nope!
@@ -403,7 +412,7 @@ html
       section
         h2 v7 comes out in just over a week
         h3 It comes packed with V8 5.4
-        h4 Got some of that es2016
+        h4 Get some of that es2016
       
       section
         h2 Be prepared for breakages
