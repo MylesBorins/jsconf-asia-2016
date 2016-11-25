@@ -41,7 +41,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "post-install": "bower install"
+    "post-install": "bower install",
+    "start": "gulp serve"
   },
   "license": "MIT"
 }
