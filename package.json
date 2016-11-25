@@ -1,8 +1,8 @@
 {
   "name": "nodejs-versions-how-do-they-work",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "author": {
-    "name": "Myles Borins"
+    "name": "Myles Borins <myles.borins@gmail.com>"
   },
   "dependencies": {
     "bespoke-theme-nebula": "^1.0.1"
